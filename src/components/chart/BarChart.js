@@ -69,7 +69,7 @@ export default function BarChart() {
 
     const data = [
        0,
-        1000,
+        10000,
 
     ]
     return (
@@ -81,8 +81,8 @@ export default function BarChart() {
                   {
                         labels: "months" == 'months' ? ['Jan', 'Feb', 'Mar', 'Apr', 'May', "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] : labels,
                         datasets: [{
-                            label: 'RevPAN',
-                            data: [65, 59, 80, 81, 56, 55, 40 , 20 , 40 , 66 , 76 , 80 , 90],
+                            label: 'Monthly Revenue Estimate $USD',
+                            data: [6500, 5900, 8000, 8100, 5600, 5500, 4000 , 2000 , 4000 , 6600 , 7600 , 8000 , 9000],
                             backgroundColor: [
                               'rgba(255, 99, 132, 0.2)',
                               'rgba(255, 159, 64, 0.2)',

@@ -84,7 +84,7 @@ export default function LineChart() {
                     {
                         labels: "months" == 'months' ? ['2019', '2020', '2021', '2022', "2023"] : labels,
                         datasets: [{
-                            label: 'RevPAN',
+                            label: 'Revenue Estimate',
                             data: data,
                             backgroundColor: [
                                 'rgba(255, 99, 132, 0.2)',
